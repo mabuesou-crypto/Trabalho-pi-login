@@ -7,14 +7,14 @@ body{
         display:flex;
         height:90vh;
         margin:0;
-        /* 1. Força o posicionamento no centro da tela */
+
         
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    /* 2. Mantém o visual e os itens um embaixo do outro */
+  
     background-color: rgb(145, 199, 145);
     padding: 350px;
     outline: 5px solid #0f250f;
@@ -32,7 +32,7 @@ body{
     gap:10px;
       background-color:rgb(106, 158, 106);
 
-/* Contêiner principal */
+
 .container-input {
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ body{
   width: 300px;
 }
 
-/* Texto superior (Digite seu nome) */
+
 .container-input label {
   color: #ffffff;
   font-size: 16px;
@@ -49,23 +49,23 @@ body{
   font-weight: 500;
 }
 
-/* Caixa de texto estilizada */
+
 .container-input input {
   width: 100%;
   padding: 10px;
-  background-color: #2a333d; /* Fundo interno escuro */
-  border: 2px solid #00bfa5;   /* Borda verde-água brilhante */
-  border-radius: 4px;        /* Cantos levemente arredondados */
-  color: #ffffff;            /* Cor do texto digitado */
+  background-color: #2a333d;
+  border: 2px solid #00bfa5;   
+  border-radius: 4px;       
+  color: #ffffff;           
   font-size: 16px;
-  text-align: center;        /* Texto centralizado como na imagem */
-  outline: none;             /* Remove a borda padrão do navegador */
-  box-shadow: 0 0 8px rgba(0, 191, 165, 0.5); /* Efeito de brilho neon */
+  text-align: center;       
+  outline: none;            
+  box-shadow: 0 0 8px rgba(0, 191, 165, 0.5);
 }
 
-/* Efeito ao clicar na caixa (Foco) */
+
 .container-input input:focus {
-  border-color: #00e676;     /* Muda para um verde mais vivo */
+  border-color: #00e676;    
   box-shadow: 0 0 12px rgba(0, 230, 118, 0.8);
 }
 
@@ -92,15 +92,15 @@ h5{
 
 /*cor do texto interativo*/
 .btn-customizado {
-  background-color: #94eb91; /* Cor do fundo */
-  border-color: #28a745;     /* Cor da borda */
-  color: #111010;            /* Cor do texto */
+  background-color: #94eb91; 
+  border-color: #28a745;     
+  color: #111010;           
   font-family: 'Courier New', Courier, monospace;
   font-size: 200%;
 
 }
 
-/* Para mudar a cor ao passar o mouse por cima (hover) */
+
 .btn-customizado:hover {
   background-color: #218838;
   border-color: #1e7e34;
@@ -108,11 +108,11 @@ h5{
   scale: 1.05;
 }
 
-/*cor do texto interativo*/
+
 .btn-customizado2 {
-  background-color: #94eb91; /* Cor do fundo */
-  border-color: #28a745;     /* Cor da borda */
-  color: #111010;            /* Cor do texto */
+  background-color: #94eb91;
+  border-color: #28a745;     
+  color: #111010;           
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.1rem;
 
@@ -128,11 +128,11 @@ h5{
 
 
 .card {
-    /* Troque o padding: 350px por um espaçamento menor e adaptável */
+   
     padding: 40px 20px !important; 
     height: auto !important; 
     max-height: 90vh;
-    overflow-y: auto; /* Adiciona rolagem se a tela for pequena */
+    overflow-y: auto; 
 }
 
 .membros-grid {
@@ -150,7 +150,7 @@ h5{
 }
 
 .membro img {
-    width: 120px; /* Reduzido levemente para caber os 6 membros sem quebrar a tela */
+    width: 120px;
     height: 120px;
     object-fit: cover;
     border-radius: 8px;
