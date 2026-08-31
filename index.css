@@ -252,6 +252,35 @@ h5{
 
 }
 
+    .card {
+    /* Troque o padding: 350px por um espaçamento menor e adaptável */
+    padding: 40px 20px !important; 
+    height: auto !important; 
+    max-height: 90vh;
+    overflow-y: auto; /* Adiciona rolagem se a tela for pequena */
+}
+
+.membros-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.membro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.membro img {
+    width: 120px; /* Reduzido levemente para caber os 6 membros sem quebrar a tela */
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 
 
 }
